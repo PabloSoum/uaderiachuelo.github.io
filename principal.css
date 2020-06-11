@@ -1,0 +1,81 @@
+@charset "utf-8";
+/* CSS Document */
+
+
+.titulo{
+    width:1280px;
+	height:100px;
+	display:block;
+	position:relative;
+	margin: 0 auto;
+	background-color: white;
+}
+
+.riachuelo{
+    width:200px;
+	height:100px;
+	display:block;
+	position:relative;
+	line-height: 100px;
+    float:left;
+    font-family: "Roboto";
+    font-size: 40px;
+    vertical-align: middle;
+}
+
+.datos{
+    width:200px;
+	height:100px;
+	display:block;
+	position:relative;
+	line-height: 100px;
+    float:right;
+    text-align: right;
+    font-family: "Roboto";
+    font-size: 20px;
+    vertical-align: middle;
+}
+
+
+
+
+.cajaprincipal{
+	width:1280px;
+	height:720px;
+	display:block;
+	position:relative;
+	margin: 0 auto;
+	background-color: white;
+}
+
+.viewport{
+	width:1280px;
+	height:720px;
+	display:block;
+	position:relative;
+	margin: 0 auto;
+	background-color: white;
+    border-color: black;
+    border-width: thin;
+}
+
+.vacio{
+    width:1280px;
+	height:30px;
+	display:block;
+	position:relative;
+	margin: 0 auto;
+	background-color: white;
+}
+
+.descripcion{
+     width:600px;
+	height:200px;
+	display:block;
+	position:relative;
+	margin: 0 auto;
+	background-color: white;
+    text-align: left;
+    font-family: "Roboto";
+    font-size: 16px;
+}
