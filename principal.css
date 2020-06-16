@@ -1,6 +1,33 @@
 @charset "utf-8";
 /* CSS Document */
+body{
+    background-color: #333333;
+    
+}
 
+#todo{
+    width:1320px;
+	
+	display:block;
+	position:relative;
+	margin: 0 auto;
+	background-color: #f5f5f5;
+}
+
+a:link{
+    text-decoration:none;
+    color: #666666;
+    }
+
+a:visited{
+    text-decoration:none;
+    color: #666666;
+    }
+
+a:active{
+    text-decoration:none;
+    color: #666666;
+    }
 
 .titulo{
     width:1280px;
@@ -8,11 +35,37 @@
 	display:block;
 	position:relative;
 	margin: 0 auto;
-	background-color: white;
+	
+}
+
+.back{
+    width:1280px;
+	height:50px;
+	display:block;
+	position:relative;
+	margin: 0 auto;
+	
+}
+
+.backsigno{
+    width:800px;
+	height:50px;
+	display:block;
+	position:relative;
+	line-height: 50px;
+    float:left;
+    font-family: "Roboto";
+    font-size: 40px;
+    vertical-align: middle;
+    color:#666666;
+}
+
+.backsigno:hover{
+   color:black;
 }
 
 .riachuelo{
-    width:200px;
+    width:800px;
 	height:100px;
 	display:block;
 	position:relative;
@@ -24,7 +77,7 @@
 }
 
 .datos{
-    width:200px;
+    width:250px;
 	height:100px;
 	display:block;
 	position:relative;
@@ -45,7 +98,7 @@
 	display:block;
 	position:relative;
 	margin: 0 auto;
-	background-color: white;
+	
 }
 
 .viewport{
@@ -54,7 +107,6 @@
 	display:block;
 	position:relative;
 	margin: 0 auto;
-	background-color: white;
     border-color: black;
     border-width: thin;
 }
@@ -65,17 +117,230 @@
 	display:block;
 	position:relative;
 	margin: 0 auto;
-	background-color: white;
 }
 
-.descripcion{
+.control1{
      width:600px;
-	height:200px;
+	height:20px;
 	display:block;
 	position:relative;
 	margin: 0 auto;
-	background-color: white;
+
     text-align: left;
     font-family: "Roboto";
+    font-weight: 600;
     font-size: 16px;
 }
+
+.control2{
+     width:600px;
+	height:70px;
+	display:block;
+	position:relative;
+	margin: 0 auto;
+
+    text-align: left;
+    font-family: "Roboto";
+    font-size: 14px;
+}
+
+.copyright{
+     width:600px;
+	height:14px;
+	display:block;
+	position:relative;
+	margin: 0 auto;
+    text-align: center;
+    font-family: "Times New Roman";
+    font-size: 14px;
+}
+
+
+.cajaproy{
+	width:1280px;
+	height:40px;
+	display:block;
+	position:relative;
+	margin: 0 auto;
+   
+}
+
+.proytituloizq{
+	width:24.25%;
+	height:40px;
+	display:inline-block;
+	position:relative;
+    float:left;
+	background-color: #dddddd;
+    margin-right:1%;
+    text-align: center;
+    font-family: "Roboto";
+    font-size: 14px;
+    vertical-align:  middle;
+    line-height: 40px;
+    
+}
+
+.proytituloder{
+	width:24.25%;
+	height:40px;
+	display:inline-block;
+	position:relative;
+	background-color: #dddddd;
+     text-align: center;
+    font-family: "Roboto";
+    font-size: 14px;
+    vertical-align:  middle;
+    line-height: 40px;
+  
+   }
+
+
+
+.cajaproy2{
+	width:1280px;
+	height:180px;
+	display:block;
+	position:relative;
+	margin: 0 auto;
+    margin-top:5px;
+    margin-bottom:8px;
+}
+
+.proytituloizq2{
+	width:24.25%;
+
+	display:inline-block;
+	position:relative;
+    float:left;
+	background-color: #aaaaaa;
+    margin-right:1%;
+  
+    
+   }
+
+.proytituloder2{
+	width:24.25%;
+	
+	display:inline-block;
+	position:relative;
+    float:left;
+    }
+
+.proyimg{
+	width:100%;
+	height:auto;
+	display:block;
+	position:relative;
+        }
+
+.proyimg:hover {
+	filter:grayscale(100%);
+        }
+
+
+
+
+@media screen and (max-width:1279px){
+    #todo{
+        width:100%;
+        height:auto;
+    }
+    
+     .cajaproy, .cajaproy2 {
+        width:95%;
+        height:auto;
+    }
+    
+    .titulo{
+        width:95%;
+        height:20px;
+    }
+    
+    .viewport{
+        width:100%;
+        height:500px;
+        margin-top: 10px;
+        margin-bottom: 10px;
+    }
+    
+     .cajaprincipal{
+        width:95%;
+        height:520px;
+    
+    }
+    
+    .riachuelo{
+        width:400px;
+        height:50px;
+        line-height: 50px;
+        font-size:20px;
+        
+    }
+    
+    .datos{
+         width:200px;
+        height:50px;
+        line-height: 50px;
+        font:16px;
+    }
+    
+    
+}
+
+@media screen and (orientation:portrait){
+    #todo{
+        width:100%;
+        height:auto;
+    }
+    
+     .cajaproy, .cajaproy2 {
+        width:95%;
+        height:auto;
+    }
+    
+    .titulo{
+        width:95%;
+        height:20px;
+    }
+    
+    .viewport{
+        width:100%;
+        height:500px;
+        margin-top: 10px;
+        margin-bottom: 10px;
+    }
+    
+     .cajaprincipal{
+        width:95%;
+        height:520px;
+    
+    }
+    
+    .riachuelo{
+        width:400px;
+        height:50px;
+        line-height: 50px;
+        font-size:20px;
+        
+    }
+    
+    .datos{
+         width:200px;
+        height:50px;
+        line-height: 50px;
+        font:16px;
+    }
+    
+    
+}
+
+
+
+
+
+
+
+
+
+
